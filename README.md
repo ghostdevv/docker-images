@@ -23,14 +23,15 @@ FROM ghcr.io/ghostdevv/node:VERSION
 ```
 
 <details>
-    <summary>Example: Run a Discord bot</summary>
+<summary>Example: Run a Discord bot</summary>
 
-    ```Dockerfile
-    FROM ghcr.io/ghostdevv/node:18-alpine
+```Dockerfile
+FROM ghcr.io/ghostdevv/node:18-alpine
 
-    RUN git clone https://github.com/sveltejs/discord-bot /app
-    RUN pnpm install
+RUN git clone https://github.com/sveltejs/discord-bot /app
+RUN pnpm install
 
-    CMD [ "pnpm", "start" ]
-    ```
+CMD [ "pnpm", "start" ]
+```
+
 </details>
