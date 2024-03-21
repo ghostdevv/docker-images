@@ -1,4 +1,4 @@
-FROM        node:18-bullseye-slim
+FROM        node:18-bookworm-slim
 
 LABEL       author="Willow (GHOST)"
 LABEL       maintainer="ghostdevbusiness@gmail.com"
