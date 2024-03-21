@@ -11,7 +11,6 @@ RUN         npm -g install npm@9
 RUN         npm -g install pnpm@8
 RUN         npm -g install tsm
 
-USER        container
-WORKDIR     /home/container
+WORKDIR     /app
 
 CMD         ["node"]
