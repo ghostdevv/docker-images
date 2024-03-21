@@ -10,6 +10,8 @@ on:
     paths:
       - node/**
 
+  workflow_dispatch:
+
 jobs:
   push:
     name: "eggs:node_${{ matrix.node }}"
