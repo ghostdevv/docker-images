@@ -11,9 +11,7 @@ RUN         npm -g install npm@10
 RUN         npm -g install pnpm@8
 RUN         npm -g install tsm
 
-RUN         useradd -m -d /home/container container
 USER        container
-ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
 CMD         ["node"]
