@@ -19,7 +19,7 @@ Modified version of the [official node images](https://hub.docker.com/_/node). P
 -   Platforms: `amd64`, `arm64`
 
 ```Dockerfile
-FROM ghcr.io/ghostdevv/node:VERSION
+FROM ghcr.io/ghostdevv/node:TAG
 ```
 
 <details>
