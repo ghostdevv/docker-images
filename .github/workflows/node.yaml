@@ -26,6 +26,8 @@ jobs:
           - '18-alpine'
           - '20'
           - '20-alpine'
+          - '22'
+          - '22-alpine'
 
     permissions:
       packages: write
