@@ -14,7 +14,7 @@ on:
 
 jobs:
   push:
-    name: "eggs:node_${{ matrix.node }}"
+    name: "node_${{ matrix.node }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
