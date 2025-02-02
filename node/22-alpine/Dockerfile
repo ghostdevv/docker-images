@@ -8,7 +8,7 @@ RUN         apk update
 RUN         apk add git python3
 
 RUN         npm -g install npm@11
-RUN         npm -g install pnpm@9
+RUN         npm -g install pnpm@10
 RUN         npm -g install tsm
 
 WORKDIR     /app
