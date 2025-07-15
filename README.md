@@ -19,6 +19,18 @@ Modified version of the [official node images](https://hub.docker.com/_/node). P
 | 18-alpine | `node:18-alpine`        | `npm@10`, `pnpm@9`, `yarn`  | `tsm@2`          |
 | 16-alpine | `node:16-alpine`        | `npm@9`, `pnpm@8`, `yarn`   | `tsm@2`          |
 
+<details>
+<summary>EOL images</summary>
+
+The following images are no longer built, and may have issues:
+
+| Tag       | Base Image              | Package Managers          | Extra   |
+| --------- | ----------------------- | ------------------------- | ------- |
+| 16        | `node:16-bullseye-slim` | `npm@9`, `pnpm@8`, `yarn` | `tsm@2` |
+| 16-alpine | `node:16-alpine`        | `npm@9`, `pnpm@8`, `yarn` | `tsm@2` |
+
+</details>
+
 - Default workdir: `/app`
 - Platforms: `amd64`, `arm64`
 
