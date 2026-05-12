@@ -20,8 +20,6 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          - '18'
-          - '18-alpine'
           - '20'
           - '20-alpine'
           - '22'
