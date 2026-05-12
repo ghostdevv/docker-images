@@ -9,7 +9,7 @@ RUN         apt -y install ffmpeg iproute2 sqlite3 libsqlite3-dev python3 python
 
 RUN         npm -g install npm@11
 RUN         npm -g install pnpm@10
-RUN         npm -g install tsm
+RUN         npm -g install tsm@2 tsx@4
 
 WORKDIR     /app
 
