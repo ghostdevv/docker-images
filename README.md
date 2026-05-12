@@ -8,11 +8,13 @@ Modified version of the [official node images](https://hub.docker.com/_/node). P
 
 | Tag       | Base Image              | Package Managers            | Extra            |
 | --------- | ----------------------- | --------------------------- | ---------------- |
+| 26        | `node:26-trixie-slim`   | `npm@11`, `pnpm@11`, `yarn` |                  |
 | 24        | `node:24-bookworm-slim` | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`, `tsx@4` |
 | 22        | `node:22-bookworm-slim` | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`          |
 | 20        | `node:20-bookworm-slim` | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`          |
 | 18        | `node:18-bookworm-slim` | `npm@10`, `pnpm@9`, `yarn`  | `tsm@2`          |
 | 16        | `node:16-bullseye-slim` | `npm@9`, `pnpm@8`, `yarn`   | `tsm@2`          |
+| 26-alpine | `node:26-alpine`        | `npm@11`, `pnpm@11`, `yarn` |                  |
 | 24-alpine | `node:24-alpine`        | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`, `tsx@4` |
 | 22-alpine | `node:22-alpine`        | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`          |
 | 20-alpine | `node:20-alpine`        | `npm@11`, `pnpm@10`, `yarn` | `tsm@2`          |
