@@ -1,7 +1,7 @@
 FROM        node:24-bookworm-slim
 
 LABEL       author="Willow (GHOST)"
-LABEL       maintainer="ghostdevbusiness@gmail.com"
+LABEL       maintainer="hello@willow.sh"
 LABEL       org.opencontainers.image.source="https://github.com/ghostdevv/docker-images"
 
 RUN         apt update -y
